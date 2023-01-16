@@ -1,6 +1,38 @@
+# Title
+-  Bank-challenge
+# Project description
+- Implement a mini web app to practice on components, props, state, events and data fetching in reactGetting started
+In order for you to use the content on this repo ensure you have the following:
+# Getting started
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS) nodejs 9.0+ Some bit of patience for your own sanity. Installation To use this repo on your machine requires some simple steps.
+
+# steps to follow
+Open terminal/comand line iterface on your computer
+
+clone the repo by using the following:
+
+git clone:
+
+        git@github.com:Darylcosm0/Bank-Challenge.git
+change directory to the repo folder:
+
+        cd Bank-Challenge
+(Optional) Open it in Visual Studio Code
+
+      code .
+(Alternate Option) Open it in any editor of your choice.
+
+Hurray! You are one step closer to being as intelligent as Einstein.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ # setting up the project
+ on the terminal run :
+
+
+    npx create-react-app
 
 ## Available Scripts
 
@@ -11,62 +43,38 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
+Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about deployment for more information.
 
 ### `npm run eject`
+Note: this is a one-way operation. Once you eject, you can’t go back!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Learn More
+You can learn more in the Create React App documentation.
 
-## Learn More
+To learn React, check out the React documentation.
+# Running the application
+on your vs code, open it with live server to display the website.
+link to live server
+    https://country-small-guide-app.vercel.app/
+What I learned
+Performing JS logic in JS template literals
+Custom routing
+CSS tricks like multiple class selectors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Author
+- DARYL MUTAI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Bank-Challenge
-# Bank-Challenge
