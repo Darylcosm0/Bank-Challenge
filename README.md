@@ -68,9 +68,9 @@ You can learn more in the Create React App documentation.
 To learn React, check out the React documentation.
 # Running the application
 on your vs code, open it with live server to display the website.
-link to live server
-    https://country-small-guide-app.vercel.app/
-What I learned
+# `link to live server
+https://coruscating-entremet-a7116a.netlify.app/
+## What I learned
 Performing JS logic in JS template literals
 Custom routing
 CSS tricks like multiple class selectors
