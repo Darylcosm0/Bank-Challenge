@@ -52,14 +52,14 @@ const App = () => {
     }
   };
 
-  let id = Number;
+  // let id = Number;
 
   useEffect(() => {
     getProductData();
   }, []);
   return (
     <div className="App">
-      <h1>BANK OF FLATIRON🤑🤑</h1>
+      {/* <h1><span role="img">BANK OF FLATIRON🤑🤑</span></h1> */}
       <input
         type="text"
         placeholder="Search here"
@@ -83,8 +83,9 @@ const App = () => {
           </TableHead>
           <TableBody>
             {product
+            // eslint-disable-next-line
               .filter((item) => {
-                if (search == "") {
+                if (search === "") {
                   return item;
                 } else if (
                   item.description.toLowerCase().includes(search.toLowerCase())
