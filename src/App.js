@@ -59,7 +59,7 @@ const App = () => {
   }, []);
   return (
     <div className="App">
-      {/* <h1><span role="img">BANK OF FLATIRON🤑🤑</span></h1> */}
+      <h1>BANK OF FLATIRON</h1>
       <input
         type="text"
         placeholder="Search here"
