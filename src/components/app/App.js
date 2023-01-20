@@ -32,7 +32,7 @@ const StyledTableRow = withStyles((theme) => ({
 const useStyles = makeStyles({
   table: {
     minWidth: 700,
-  },  
+  },
 });
 
 const App = () => {
@@ -52,7 +52,6 @@ const App = () => {
     }
   };
 
-  // let id = Number;
 
   useEffect(() => {
     getProductData();
@@ -68,7 +67,7 @@ const App = () => {
         }}
       />
 
- 
+
 
       <TableContainer component={Paper}>
         <Table className={classes.table} aria-label="customized table">
@@ -83,7 +82,7 @@ const App = () => {
           </TableHead>
           <TableBody>
             {product
-            // eslint-disable-next-line
+              // eslint-disable-next-line
               .filter((item) => {
                 if (search === "") {
                   return item;
@@ -96,9 +95,9 @@ const App = () => {
                   item.category.toLowerCase().includes(search.toLowerCase())
                 ) {
                   return item;
-                } 
-                
-                
+                }
+
+
               })
               .map((item) => {
                 return (
